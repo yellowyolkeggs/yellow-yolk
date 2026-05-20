@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yellow Yolk</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background:#f7f3ea;
+      margin:0;
+      padding:0;
+      text-align:center;
+    }
+
+    .hero{
+      background:black;
+      color:white;
+      padding:80px 20px;
+    }
+
+    h1{
+      font-size:60px;
+      margin:0;
+    }
+
+    .yellow{
+      color:#f4b400;
+    }
+
+    p{
+      font-size:20px;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      background:#f4b400;
+      color:black;
+      padding:15px 30px;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:bold;
+    }
+
+    .section{
+      padding:50px 20px;
+    }
+
+    .card{
+      background:white;
+      margin:20px auto;
+      padding:20px;
+      max-width:300px;
+      border-radius:15px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer{
+      background:#f4b400;
+      padding:30px;
+      font-weight:bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hero">
+    <h1>YELLOW <span class="yellow">YOLK</span></h1>
+    <p>Premium Kienyeji Eggs</p>
+
+    <a class="btn" href="https://wa.me/254724900469">
+      Order on WhatsApp
+    </a>
+  </div>
+
+  <div class="section">
+    <h2>Why Choose Us</h2>
+
+    <div class="card">
+      <h3>Farm Fresh</h3>
+      <p>Fresh free-range eggs delivered daily.</p>
+    </div>
+
+    <div class="card">
+      <h3>Rich Yellow Yolk</h3>
+      <p>Naturally nutritious and tasty eggs.</p>
+    </div>
+
+    <div class="card">
+      <h3>Fast Delivery</h3>
+      <p>Quick delivery around Greatwall & Kitengela.</p>
+    </div>
+  </div>
+
+  <footer>
+    📞 0724 900 469 | Greatwall, Kitengela
+  </footer>
+
+</body>
+</html>
